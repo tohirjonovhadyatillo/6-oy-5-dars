@@ -1,0 +1,101 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+li p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  margin-bottom: 15px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+}
+
+form p {
+  font-size: 14px;
+  color: red;
+}
+
+form p.green {
+  font-size: 14px;
+  color: green;
+}
+
+.weather-info {
+  margin-top: 10px;
+}
+
+.weather-info h3 {
+  font-size: 1.5em;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
